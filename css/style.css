@@ -12,7 +12,8 @@ html {
 body {
   max-width: 1440px;
   max-height: 1024px;
-  background-color: #fffefe; }
+  background-color: #fffefe;
+  transition: all 0.6s ease-in-out; }
 
 a {
   text-decoration: none;
@@ -132,6 +133,9 @@ input.searchbar {
     justify-content: center;
     align-items: start; }
 
+p {
+  color: black; }
+
 .item_photo {
   width: 482px;
   height: 604px;
@@ -230,22 +234,36 @@ input.searchbar {
   background-repeat: no-repeat;
   background-position: center; }
 
+button {
+  background: none; }
+
 .menu_list-img {
   border: none;
   cursor: pointer; }
-  .menu_list-img .hui {
-    background-image: url("../images/dakrmode.svg"); }
-  .menu_list-img .hui_dark {
-    background-image: url("../images/like.svg"); }
+  .menu_list-img .dark {
+    background-image: url("../images/dakrmode.svg");
+    transition: all 0.6s ease-in-out; }
+  .menu_list-img .darkmode_dark {
+    background-image: url("../images/darkmode_dark.svg");
+    transition: all 0.6s ease-in-out; }
   .menu_list-img .like {
-    background-image: url("../images/like.svg"); }
+    background-image: url("../images/like.svg");
+    transition: all 0.6s ease-in-out; }
+  .menu_list-img .like_dark {
+    background-image: url("../images/like_dark.svg");
+    transition: all 0.6s ease-in-out; }
   .menu_list-img .insta {
-    background-image: url("../images/instagram.svg"); }
+    background-image: url("../images/instagram.svg");
+    transition: all 0.6s ease-in-out; }
+  .menu_list-img .insta_dark {
+    background-image: url("../images/instagram_dark.svg");
+    transition: all 0.6s ease-in-out; }
   .menu_list-img .faceb {
-    background-image: url("../images/facebook.svg"); }
+    background-image: url("../images/facebook.svg");
+    transition: all 0.6s ease-in-out; }
+  .menu_list-img .faceb_dark {
+    background-image: url("../images/facebook_dark.svg");
+    transition: all 0.6s ease-in-out; }
 
 body.dark {
   background-color: black; }
-
-.menu_list a .dark {
-  color: white; }

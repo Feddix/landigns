@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   font-family: "Jost", sans-serif;
+
 }
 
 html {
@@ -15,6 +16,9 @@ body {
   max-width: 1440px;
   max-height: 1024px;
   background-color: rgb(255, 254, 254);
+  transition: all 0.6s ease-in-out;
+
+
 }
 
 
@@ -174,6 +178,10 @@ input.searchbar {
   }
 }
 
+p {
+  color: black;
+}
+
 .item_photo {
   width: 482px;
   height: 604px;
@@ -299,28 +307,63 @@ input.searchbar {
   background-position: center;
 }
 
+button {
+  background: none;
+
+}
+
 .menu_list-img {
   border: none;
   cursor: pointer;
 
-  .hui {
+
+  .dark {
     background-image: url("../images/dakrmode.svg");
+    transition: all 0.6s ease-in-out;
+
   }
-  .hui_dark{
-    background-image: url("../images/like.svg");
+
+  .darkmode_dark {
+    background-image: url("../images/darkmode_dark.svg");
+    transition: all 0.6s ease-in-out;
+
 
   }
 
   .like {
     background-image: url("../images/like.svg");
+    transition: all 0.6s ease-in-out;
+
+  }
+
+  .like_dark {
+    background-image: url("../images/like_dark.svg");
+    transition: all 0.6s ease-in-out;
+
   }
 
   .insta {
     background-image: url("../images/instagram.svg");
+    transition: all 0.6s ease-in-out;
+
+  }
+
+  .insta_dark {
+    background-image: url("../images/instagram_dark.svg");
+    transition: all 0.6s ease-in-out;
+
   }
 
   .faceb {
     background-image: url("../images/facebook.svg");
+    transition: all 0.6s ease-in-out;
+
+  }
+
+  .faceb_dark {
+    background-image: url("../images/facebook_dark.svg");
+    transition: all 0.6s ease-in-out;
+
   }
 }
 
@@ -328,8 +371,4 @@ input.searchbar {
 
 body.dark {
   background-color: black;
-}
-
-.menu_list a .dark {
-  color: white;
 }

@@ -21,11 +21,15 @@
     <nav class="menu">
       <ul class="menu_list">
         <li class="menu_list-link">
-          <a href="#">Shop</a>
+          <a href="#">
+            <p id='text'>Shop</p>
+          </a>
         </li>
         <div class="vertical_line"></div>
         <li class="menu_list-link">
-          <a href="#">Discover</a>
+          <a href="#">
+            <p id='text'>Discover</p>
+          </a>
         </li>
         <div class="vertical_line"></div>
         <li class="menu_list-logo">
@@ -39,30 +43,32 @@
         </li>
         <div class="vertical_line"></div>
         <li class="menu_list-link">
-          <a href="#">Cart</a>
+          <a href="#">
+            <p id='text'>Cart</p>
+          </a>
         </li>
         <div class="vertical_line"></div>
         <li class="menu_list-item">
           <button class="menu_list-img ">
-            <div class="icon_menu faceb "></div>
+            <div class="icon_menu faceb " id="faceb_dark"></div>
           </button>
         </li>
         <div class="vertical_line"></div>
         <li class="menu_list-item">
           <button class="menu_list-img ">
-            <div class="icon_menu insta "></div>
+            <div class="icon_menu insta " id="insta_dark"></div>
           </button>
         </li>
         <div class="vertical_line"></div>
         <li class="menu_list-item">
           <button class="menu_list-img ">
-            <div class="icon_menu like "></div>
+            <div class="icon_menu like " id="like_dark"></div>
           </button>
         </li>
         <div class="vertical_line"></div>
         <li class="menu_list-item">
           <button class="menu_list-img switchMode">
-            <div class="icon_menu hui" id="hui"></div>
+            <div class="icon_menu dark" id="darkmode_dark"></div>
           </button>
         </li>
         <div class="vertical_line"></div>
@@ -122,51 +128,36 @@
       </li>
       <div class="vertical_line"></div>
       <li class="menu_list-link">
-        <a href="#">Overview</a>
+        <a href="#">
+          <p id='text'>Overview</p>
+        </a>
       </li>
       <div class="vertical_line"></div>
       <li class="menu_list-link">
-        <a href="#">Boutique</a>
+        <a href="#">
+          <p id='text'>Boutique</p>
+        </a>
       </li>
       <div class="vertical_line"></div>
       <li class="menu_list-link">
-        <a href="#">About us</a>
+        <a href="#">
+          <p id='text'>About us</p>
+        </a>
       </li>
       <div class="vertical_line"></div>
       <li class="menu_list-link">
-        <a href="#">FAQ</a>
+        <a href="#">
+          <p id='text'>FAQ</p>
+        </a>
       </li>
       <div class="vertical_line"></div>
       <li class="menu_list-item-footer">
         <p>ITEM SECTION NAME</p>
       </li>
     </ul>
-
   </footer>
 
-  <script>
-    // const body = document.querySelector("body"),
-    //   switchMode = document.querySelector('.switchMode');
-    // switchMode.addEventListener("click", () => {
-    //   if (body.classList.contains("dark")) {
-    //     body.classList.remove("dark");
-    //   } else {
-    //     body.classList.add("dark");
-    //   }
-    // });
-
-    const f1 = document.getElementById("hui");
-
-    f1.addEventListener('click', function () {
-
-      f1.classList.toogle("hui_dark")
-      f1.classList.toogle("hui")
-
-    })
-
-
-
-  </script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
