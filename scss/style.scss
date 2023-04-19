@@ -20,7 +20,19 @@ body {
 
 
 }
-
+.text{
+  
+}
+.company {
+  font-size: 32px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: 0.64em;
+  color: black;
+}
+.dark_text{
+  color: white;
+}
 
 a {
   text-decoration: none;
@@ -171,7 +183,7 @@ input.searchbar {
   p {
     font-size: 22px;
     line-height: 32px;
-    color: black;
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: start;
@@ -179,7 +191,7 @@ input.searchbar {
 }
 
 p {
-  color: black;
+  
 }
 
 .item_photo {

@@ -15,6 +15,16 @@ body {
   background-color: #fffefe;
   transition: all 0.6s ease-in-out; }
 
+.company {
+  font-size: 32px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: 0.64em;
+  color: black; }
+
+.dark_text {
+  color: white; }
+
 a {
   text-decoration: none;
   cursor: pointer; }
@@ -128,13 +138,10 @@ input.searchbar {
   .view p {
     font-size: 22px;
     line-height: 32px;
-    color: black;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: start; }
-
-p {
-  color: black; }
 
 .item_photo {
   width: 482px;
